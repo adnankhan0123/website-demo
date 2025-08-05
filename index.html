@@ -75,6 +75,14 @@
     button:hover {
       background-color: #0056b3;
     }
+    .main-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
   </style>
 </head>
 <body>
@@ -90,10 +98,14 @@
 
   <!-- Main Section -->
   <main>
-    <h1>Welcome to the IJEAC Journal Portal</h1>
-    <p>Click the button below to read our featured article.</p>
-    <button onclick="window.location.href='publish-article.html'">Read the Article</button>
-  </main>
+  <h1>Welcome to the IJEAC Journal Portal</h1>
+  <p>Click the button below to read our featured article.</p>
+  
+  <!-- Image inside main section -->
+  <img src="background.jpg" alt="Journal Banner" class="main-image">
+
+  <button onclick="window.location.href='publish-article.html'">Read the Article</button>
+</main>
 
 </body>
 </html>

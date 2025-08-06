@@ -1,5 +1,8 @@
-User-agent: *
-Allow: /
+User-agent: Googlebot
+Disallow:
+
+User-agent: GoogleScholar
+Disallow:
 
 Sitemap: https://website-demo-smoky.vercel.app/sitemap.xml
 
